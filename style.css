@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(87, 86, 86);
+    color: white;
+}
+
+/* Header Content */
+ /*NEED CONTENT*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title {
+    font-size: 36px;
+    color: rgb(212, 211, 211);
+}
+
+.menu {
+    font-size: 20px;
+    background-color: rgb(87, 86, 86);
+    border: solid rgb(87, 86, 86);
+    color:rgb(212, 211, 211);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: rgb(212, 211, 211);
+    color: rgb(87, 86, 86);
+    border: solid rgb(212, 211, 211);
+    opacity: 100%;
+}
+
+/* Main Content */
+.content {
+    background-color: rgb(212, 211, 211);
+    color: black;
+}
+
+/* Footer Content */
+/*NEED CONTENT*/
+.footer {
+    background-color: rgb(87, 86, 86);
+}
+
+.copyright {
+    color: rgb(212, 211, 211);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Social Media Icons */
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+  
+  .fa-pinterest {
+    color: white;
+  }
+
