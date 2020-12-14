@@ -38,6 +38,16 @@ body {
     color: black;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Footer Content */
 /*NEED CONTENT*/
 .footer {
@@ -48,14 +58,9 @@ body {
     color: rgb(212, 211, 211);
 }
 
-.flex {
+.links {
     display: flex;
-    justify-content: space-between;
-}
-
-.padding {
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: flex-end;
 }
 
 /* Social Media Icons */
