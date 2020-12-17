@@ -1,10 +1,20 @@
+/* Table of Contents */
+/*
+
+    -Header Content
+    -Main Content
+    -Footer Content
+    -Social Media Icons
+    -Sudoku Content
+
+*/
+
 body {
     background-color: rgb(87, 86, 86);
     color: white;
 }
 
 /* Header Content */
- /*NEED CONTENT*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,7 +43,7 @@ body {
 }
 
 /* Main Content */
-.content {
+.main {
     background-color: rgb(212, 211, 211);
     color: black;
 }
@@ -98,3 +108,56 @@ body {
     color: white;
   }
 
+/* Sukodu Content */
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 40vw;
+    height: 40vw;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+#right {
+    border-right: 3px solid black;
+}
+
+#rightBottom {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#rightTop {
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+}
+
+#left {
+    border-left: 3px solid black;
+}
+
+#leftBottom {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#leftTop {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+#bottom {
+    border-bottom: 3px solid black;
+}
+
+#top {
+    border-top: 3px solid black;
+}
